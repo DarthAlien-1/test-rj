@@ -1,8 +1,4 @@
-opencv-python
-pytest
+streamlit
+opencv-python-headless
 numpy
-flake8
-bandit
-pip-audit
-
-
+pytest
