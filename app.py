@@ -17,7 +17,7 @@ if uploaded_file is not None:
     filter_type = st.sidebar.selectbox("Select Filter Technique", 
         ["Original", "Thermal Vision", "Motion Blur", "Mirror Flip", "Solarize", "Channel Swap"])
 
-    result_img = img.copy()
+    result_img123 = img.copy()
 
     if filter_type == "Thermal Vision":
         result_img = cv2.applyColorMap(img, cv2.COLORMAP_JET)
