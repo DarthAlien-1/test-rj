@@ -1,4 +1,4 @@
-# FinalExam-Elec4
+# Elec4
 Automated Image Processing is a Python-based image processing application that demonstrates the integration of computer vision techniques with DevOps automation. The system processes images using multiple image processing operations and ensures reliability through automated testing and Continuous Integration (CI) using GitHub Actions.
 
 # Automated Image Processing
@@ -26,7 +26,7 @@ Automated Image Processing is a Python-based image processing application that d
 
 ## Project Structure 
 text
-elec4-midterm\
+elec4-\
 │
 \
 ├── .github
@@ -103,8 +103,6 @@ Each input image undergoes the following operations:
 - Every push or pull request triggers the GitHub Actions CI pipeline to ensure code quality and reliability.
 
 ## Author
-- Clemente, Jose Fernando - Image Processing Lead 
-- Dasico, Jerome - DevOps Security
-- Moral, Justine - Tester
+- Clemente, Jose Fernando
 - Ocillos, Amberdawn - DevOps
 - Quinto, Francis Kian - Documenter/ Presenter
