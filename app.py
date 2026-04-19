@@ -4,7 +4,7 @@ import numpy as np
 
 st.set_page_config(page_title="Image Processor")
 
-st.title("Elective 4 Final Project - Image P")
+st.title("Elective 4 Final Project - Image Processor")
 st.write("Upload an image to apply custom automated filters.")
 
 st.sidebar.header("⚙️ Filter Settings")
@@ -17,7 +17,7 @@ if uploaded_file is not None:
     filter_type = st.sidebar.selectbox("Select Filter Technique", 
         ["Original", "Thermal Vision", "Motion Blur", "Mirror Flip", "Solarize", "Channel Swap"])
 
-    result_img123 = img.copy()
+    result_img = img.copy()
 
     if filter_type == "Thermal Vision":
         result_img = cv2.applyColorMap(img, cv2.COLORMAP_JET)
